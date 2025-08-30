@@ -4,7 +4,7 @@ from .base import BaseNoise
 
 
 class WhiteNoise(BaseNoise):
-    def __init__(self, snrs=[30, 20, 10]):
+    def __init__(self, snrs=[30, 20, 10, 5]):
         self.snrs = snrs
 
     def get_variants(self):
